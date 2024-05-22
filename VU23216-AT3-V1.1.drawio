@@ -1,4 +1,4 @@
-<mxfile modified="2024-05-22T03:09:59.583Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="hvrgd6yRIS-m8tgX6gcZ" version="24.4.4" type="github">
+<mxfile modified="2024-05-22T06:02:00.856Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="PQcPJAqE5qdtqQaVHzgb" version="24.4.4" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="2236" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
             <mxPoint x="-260" y="404" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-37" value="Windows Event Log" style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" parent="1" vertex="1">
+        <mxCell id="HJctW9A064tmooR44P-Z-37" value="Windows Event Log&#xa;DVWA on XAMPP" style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="-830" y="255.63" width="102" height="94.75" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HJctW9A064tmooR44P-Z-43" target="HJctW9A064tmooR44P-Z-27" edge="1">
