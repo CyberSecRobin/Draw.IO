@@ -1,6 +1,6 @@
-<mxfile modified="2024-05-22T01:21:30.608Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="pWhCbBoGdt6iAxTTGVyb" version="24.3.1" type="github">
+<mxfile modified="2024-05-22T01:27:53.563Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="UsgTye3Onojd8M3xZmCk" version="24.3.1" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
-    <mxGraphModel dx="1255" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="736" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,40 +97,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-25" value="Virtual Host PC 192.168.20.0/24" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="260" width="730" height="470" as="geometry" />
+          <mxGeometry x="1280" y="260" width="580" height="470" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-26" value="Students Build" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1870" y="290" width="120" height="220" as="geometry" />
+          <mxGeometry x="1688" y="385" width="120" height="220" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-27" value="Debian" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_linux;" vertex="1" parent="1">
-          <mxGeometry x="1762" y="424" width="46" height="60" as="geometry" />
+          <mxGeometry x="1547" y="517.75" width="46" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-28" value="" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_linux;" vertex="1" parent="1">
-          <mxGeometry x="1907" y="424" width="46" height="60" as="geometry" />
+          <mxGeometry x="1725" y="519.75" width="46" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-29" value="Kali" style="outlineConnect=0;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=center;html=1;shape=mxgraph.aws3.hosted_zone;fillColor=#F58536;gradientColor=none;labelPosition=center;" vertex="1" parent="1">
-          <mxGeometry x="1897.5" y="319.75" width="63" height="64.5" as="geometry" />
+          <mxGeometry x="1716.5" y="418.75" width="63" height="64.5" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-30" value="Metasploitable" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_linux;" vertex="1" parent="1">
-          <mxGeometry x="1642" y="424" width="46" height="60" as="geometry" />
+          <mxGeometry x="1380" y="609.25" width="46" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="HJctW9A064tmooR44P-Z-29" target="HJctW9A064tmooR44P-Z-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1870" y="480" as="sourcePoint" />
-            <mxPoint x="1920" y="430" as="targetPoint" />
+            <mxPoint x="1745" y="484" as="sourcePoint" />
+            <mxPoint x="1795" y="434" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-32" value="Windows 10" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_windows;" vertex="1" parent="1">
-          <mxGeometry x="1358" y="424" width="46" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-33" value="Raspian" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_linux;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="424" width="46" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJctW9A064tmooR44P-Z-38" target="HJctW9A064tmooR44P-Z-33">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1523" y="412" as="sourcePoint" />
-            <mxPoint x="1597" y="334.25" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="1380" y="390.38" width="46" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJctW9A064tmooR44P-Z-37" target="HJctW9A064tmooR44P-Z-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -138,61 +129,43 @@
             <mxPoint x="1920" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJctW9A064tmooR44P-Z-39" target="HJctW9A064tmooR44P-Z-30">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1664.5272727272725" y="411.79999999999995" as="sourcePoint" />
-            <mxPoint x="1920" y="430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-37" value="Windows Event Log" style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1328" y="315.25" width="102" height="94.75" as="geometry" />
-        </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-38" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="316" width="102" height="94.75" as="geometry" />
-        </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-39" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="1614" y="316" width="102" height="94.75" as="geometry" />
-        </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-40" value="DMZ 192.168.10/24" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="560" width="300" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-41" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.coffee_pot;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1456.75" y="595.25" width="79.5" height="79.5" as="geometry" />
+          <mxGeometry x="1350" y="281.63" width="102" height="94.75" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HJctW9A064tmooR44P-Z-43" target="HJctW9A064tmooR44P-Z-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-43" value="SQL DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1755" y="315.25" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-44" value="Virtual WiFi Router" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=wireless_router;fillColor=#FAFAFA;strokeColor=#005073;labelPosition=center;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="595.25" width="50" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-45" value="Custom Linux Image" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_linux;" vertex="1" parent="1">
-          <mxGeometry x="1596" y="605" width="46" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="HJctW9A064tmooR44P-Z-41" target="HJctW9A064tmooR44P-Z-45">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1870" y="570" as="sourcePoint" />
-            <mxPoint x="1920" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-47" value="Custom Linux Image" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_linux;" vertex="1" parent="1">
-          <mxGeometry x="1762" y="595.25" width="46" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HJctW9A064tmooR44P-Z-44" target="HJctW9A064tmooR44P-Z-47">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1860" y="630" as="sourcePoint" />
-            <mxPoint x="1920" y="520" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="HJctW9A064tmooR44P-Z-43" value="GNS3" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="413" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-50" value="V1.0.5" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="515" y="164" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-51" value="V1.1.0" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="1568" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HJctW9A064tmooR44P-Z-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJctW9A064tmooR44P-Z-54" target="HJctW9A064tmooR44P-Z-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1495.309357612544" y="558.8" as="sourcePoint" />
+            <mxPoint x="1494" y="574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJctW9A064tmooR44P-Z-54" value="So many things..." style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1352" y="494.5" width="102" height="94.75" as="geometry" />
+        </mxCell>
+        <mxCell id="HJctW9A064tmooR44P-Z-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.15;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HJctW9A064tmooR44P-Z-43" target="HJctW9A064tmooR44P-Z-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1540" y="410" as="sourcePoint" />
+            <mxPoint x="1390" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJctW9A064tmooR44P-Z-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJctW9A064tmooR44P-Z-43" target="HJctW9A064tmooR44P-Z-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1640" y="361" as="sourcePoint" />
+            <mxPoint x="1440" y="373" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
