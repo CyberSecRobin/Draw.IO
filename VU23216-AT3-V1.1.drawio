@@ -1,29 +1,33 @@
-<mxfile modified="2024-06-26T04:59:41.870Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="zKrg00s8PoNa7L2sLQKM" version="24.4.13" type="github">
+<mxfile modified="2024-06-26T05:09:14.422Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="w4vm5oanm6ZnCWv-HtGG" version="24.4.13" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="2011" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HJctW9A064tmooR44P-Z-25" value="Virtual Host PC 192.168.20.0/24" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-1000" y="220" width="790" height="470" as="geometry" />
+        <mxCell id="HJctW9A064tmooR44P-Z-25" value="Virtual Host PC" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1000" y="220" width="790" height="550" as="geometry" />
         </mxCell>
         <mxCell id="HjCkSi2J4U26lbaqlSwR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HjCkSi2J4U26lbaqlSwR-5" target="HjCkSi2J4U26lbaqlSwR-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-529" y="590" />
-              <mxPoint x="-662" y="590" />
+              <mxPoint x="-605" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HjCkSi2J4U26lbaqlSwR-5" value="KALI" style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-580" y="300" width="102" height="270" as="geometry" />
+        <mxCell id="HjCkSi2J4U26lbaqlSwR-5" value="KALI&#xa;&#xa;&#xa;" style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-580" y="260" width="102" height="310" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-28" value="KALI&lt;div&gt;192.168.20.3&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU:2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RAM:4GB&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HDD:80GB&lt;/span&gt;&lt;/div&gt;" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_linux;" parent="HjCkSi2J4U26lbaqlSwR-5" vertex="1">
           <mxGeometry x="28" y="80.75" width="46" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HjCkSi2J4U26lbaqlSwR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="swCvWvZ0N3fAcbbuVvZp-5" edge="1">
+        <mxCell id="HjCkSi2J4U26lbaqlSwR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="swCvWvZ0N3fAcbbuVvZp-5" edge="1" target="HjCkSi2J4U26lbaqlSwR-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-662" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-662" y="590" />
+              <mxPoint x="-605" y="590" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="swCvWvZ0N3fAcbbuVvZp-5" value="Wazah" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -36,14 +40,14 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-799" y="590" />
-              <mxPoint x="-662" y="590" />
+              <mxPoint x="-605" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-37" value="Windows Event Log&#xa;&amp;&#xa;DVWA on XAMPP" style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-850" y="300" width="102" height="270" as="geometry" />
+        <mxCell id="HJctW9A064tmooR44P-Z-37" value="Windows &#xa;&#xa;&#xa;Event Log" style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-850" y="260" width="102" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-32" value="Windows 10&lt;div&gt;DHCP Lease&lt;/div&gt;&lt;div&gt;(20.10 -&amp;gt; 20.30)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU:4&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RAM:4GB&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HDD:60GB&lt;/span&gt;&lt;/div&gt;" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_windows;" parent="HJctW9A064tmooR44P-Z-37" vertex="1">
+        <mxCell id="HJctW9A064tmooR44P-Z-32" value="Windows 10&lt;div&gt;DHCP Lease&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU:4&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RAM:4GB&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HDD:60GB&lt;/span&gt;&lt;/div&gt;" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_windows;" parent="HJctW9A064tmooR44P-Z-37" vertex="1">
           <mxGeometry x="28" y="80" width="46" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-43" value="SIEM" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -52,52 +56,52 @@
         <mxCell id="HJctW9A064tmooR44P-Z-51" value="V1.1.4" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
           <mxGeometry x="-722" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HjCkSi2J4U26lbaqlSwR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HJctW9A064tmooR44P-Z-54" target="HjCkSi2J4U26lbaqlSwR-2" edge="1">
+        <mxCell id="HjCkSi2J4U26lbaqlSwR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HJctW9A064tmooR44P-Z-54" target="HjCkSi2J4U26lbaqlSwR-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-919" y="590" />
-              <mxPoint x="-662" y="590" />
+              <mxPoint x="-605" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-54" value="So many things to monitor / collect" style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-970" y="300" width="102" height="270" as="geometry" />
+          <mxGeometry x="-970" y="260" width="102" height="310" as="geometry" />
         </mxCell>
         <mxCell id="HJctW9A064tmooR44P-Z-30" value="Metasploitable&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;192.168.20.6&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU:1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RAM:512MB&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HDD:8GB&lt;/span&gt;&lt;/div&gt;" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_linux;" parent="HJctW9A064tmooR44P-Z-54" vertex="1">
           <mxGeometry x="28" y="80" width="46" height="60" as="geometry" />
         </mxCell>
         <mxCell id="swCvWvZ0N3fAcbbuVvZp-1" value="Raspian&lt;div&gt;192.168.20.5&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU:2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RAM:2GB&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HDD:20GB&lt;/span&gt;&lt;/div&gt;" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_linux;" parent="1" vertex="1">
-          <mxGeometry x="-432" y="380" width="46" height="60" as="geometry" />
+          <mxGeometry x="-432" y="340" width="46" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HjCkSi2J4U26lbaqlSwR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="swCvWvZ0N3fAcbbuVvZp-2" target="HjCkSi2J4U26lbaqlSwR-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-417" y="590" />
-              <mxPoint x="-662" y="590" />
+              <mxPoint x="-605" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="swCvWvZ0N3fAcbbuVvZp-2" value="SMTP only example" style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-460" y="300" width="102" height="270" as="geometry" />
+        <mxCell id="swCvWvZ0N3fAcbbuVvZp-2" value="Raspbian Desktop&#xa;&#xa;DVWA on XAMPP" style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-460" y="260" width="102" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="HjCkSi2J4U26lbaqlSwR-2" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="-702" y="610" width="80" height="80" as="geometry" />
+        <mxCell id="HjCkSi2J4U26lbaqlSwR-2" value="Host Only (VMnet1)&lt;div&gt;Connect a host virtual adapter (DISABLED)&lt;/div&gt;&lt;div&gt;Use local DHCP service (DISABLED)&lt;/div&gt;&lt;div&gt;Subnet IP 192.168.20.0 / 24&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-645" y="610" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KYqCnY--QDu1jU-nT3Zd-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAPgAAADBCAYAAADipH1uAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABE3SURBVHhe7d1viFtXegbwR+O4zrq2Y6dsWk/B2BIZMyGg3drJOt3BxW41rZaJB5ZCB9IydKFExAq0ol/aLdNBH9p8WERpZmKl0JbZNnQ+BZw/qIzauA1TyJL5Mo0T4zFSijfR7oYm65T8cWLPTN/33nOkK400lixp5s7J8wuHq3t1JY0hj95zroTeyOHDh9dBRE6KPPTQQww4kaMiJ06cYMCJHDVgtkTkIAacyGEMOJHDGHAihzHgRA5jwIkcxoATOWzLPwf/zjc/Qvp33sf+PetYl1deW4tgHRH87OM9+OMfHsVPb+w2ZxJRt7a8gk/+xk+x7xc03AMS7F0y9E/YhQcOrCL3B9ex7941/0Qi6tqWV/D/mHoLkUhEbg1gVbIcka1WcK3kkYjcXtf7pKrLVo/reVrpf3LjHvzzfx3Ev/33Xn2alsZyS5iW/05mXqntn/Zu1rk+N41LZ6YxecTff336JMxDiJyxacA1iOuargatjrfjP//ybXnsgARan8cPtBfkXV/Dvb/629jzy6dk3n5LzrwNrH4JrMvQ/fVb+PjjG/jNJ5f8J2rm+NN48a+P4X9wFO/+2Xfx7FVz3DOG3NL38O4T9vgYxsZewSsaan3cC8fwDyczYMbJJS2n6I8//jjS6TR27dpljvh0X4+PjY2ZI53ZeyKPfb/+Lzjw7X/C/sf+HgdOXcB93/pb3Hciiz1f/wZw60PJ9keylXH7Ywn5JxLwT2V8hvt+cfMVxfHRM8Cl5/H8JeDM6HFztBUTbnX1XXlTIHJP08QMDAzg6NGjePjhh/HUU09VQ65b3dfjx44d887rVARSkb/4sYz3ZLwPfFmR8RMZH0ig/0+C/IWp2rZ6y743zH5Lx+Hle+Eqri54CZcjbRo7i9Ovv8bqTc5pmtA1mT9fuHABly9froZ8z5491XDr8eeee847r2Nrn/th9YYJbuPWm5rrtFyP2aH33TRP0sTxUZzBJUi+pSIvyK0zuFMRP/70i1haWsLS2deqa3Yil7Qswbdv3/ZCbEP+zDPP1IV7dXXVnNmhamBlBEOst72t7kuYVyXMXqjtMPst+NPzBfjL7qvQIj755ObLiKvPfhcnT57EydfOStBfxNNtl3yinWHTObaG2IZ879693YdbeRfMgkE24dZAe9vgfTbcOvSYjKbG8OTkERyZfMGvyDJe0Mvjp8/KPW14JYPp14/g2INmn8gRd1xE25C/9NJL3rS9q3ArW7G90NoKLre9Cq5bGXXVW2/bIfvN6Br6+hye0GpcHU9g7vppnG2V8LGxQPjHcPb0dbx7zewSOaKtq2Qa6ldffdWbtnfNVmI7Ja8OG2bZ2jcBDbt3PHBOE2NnT+N6dXpu6TT9uhTxFgm/dgzfM9V+aWkamG78WI1o59vyL7r8+989ivv27ZHwypvFuswGvK0dWtHNsbWNxyr/ewvn/kL2iagtWx7w33r4czwx8gm+fkBeVr+1pl92Md9H1y+9rMnwvwDjfxlGj+v+p58D//j6blx6p/5zeSJqbcsDTkRbp601OBHtTAw4kcMYcCKHMeBEDmPAiRzGgBM5jAEnchgDTuQwtg8mcljk8OHDDDiRozhFJ3IYA07kMAacyGEMOJHDGHAihzHgRA5jwIkcxoATOSx0X3T53W/fxPd/7xMcuBcI9g+vfHQPfj+3D+9/yPckonaFLi3psU+xX390taF/+OFDwA//5DPs/xq/eEfUrtAFfFCCrKHWsSrVW8Ott9ck8IP3D+BHP7iJd2Zv4u2ZL3B55ksZt/HWs7dRmF7FuVP+c2w0gbnKIqbiZhdxTC1WUJmbMPvNBB4Tn8Ji3eOJdobQTdGvPf/z6k8md9o//MaNn+Ohcy/7T1RHw5pGKTmC7LLszVWQLiUxojst1T+GaCcKXQXvpn/4wX13/s30+NQicsjcIdxEbghdwPvXP1yMz6EwuoDk5Lw54NOKXqmY0XTa3jjFJ9oZQhfwvvUPRxSpVALFmSwaa/f85CAGB3VkUEykGWRyRggDHghtMMR629vqvoS5w/7hQBn5TB6xXJNKPDFnKngOCXOIyAUhDLgJdTXIJtxd9Q83rmQxkikhVZiTSbehV8hzQMar4Enky+Y4kQPCF3Bbsb3Q2gout70KrlsZnfYPD5qfRDIfQ25xCl4hH44hWi7hit6Oj2M0qjeI3BDeKbqdkleHDbNs7ZtAm/3DGy1nR5AppVDQkM/nkIfc1in6bAwlVnBySOg+B3/n5XEc3K/fU9Xe4J31D//xz27iW3/0nnkmIgpdwM89GkEqGcGvHJLJRQf9wz/5bB1/8/JneHWpvSpO9FXAX1Ulclj41uBE1DMMOJHDGHAihzHgRA5jwIkcxoATOYwBJ3IYA07kMAacyGEMOJHDGHAihzHgRA5jwIkcxoATOYwBJ3IYA07kMAacyGEMOJHD2B+cyGGhSwv7gxP1TugC3r/+4K0aC/odRyvb1lywzcaGd9WjfLPnZkPFr4LQBdz/SeRdWF2NyMRcwq2VXEbknr2498g4Dj76Vzh4chqHHvk+7v+1P8X930zjl77xJOJn/xDP/Pnj5lmaKaMca9ZYcAKZVDvtTLY5EMtZjAzaXuUMJ7UndAHvZ3/wUgkYHW9IxUQSiWIRRbNL5JLwVfA+9gcv5WZQSmWk/llxTKVjyOcKZt/wpsOmX3hFGxVqxdTOo1GkCrWpfvO+4vKci7Xj/mFTcSdqz7vYqvzWvbZ9vLJVu5O/xRju9HUDzRlpRwtdwPvXH1zNo1BMIGn/79Vmg1jAxbqG4RKgghxNmp7hGSA9dQWT2jtcWxDr8cl578ymfcUnMkiVMub4IMypQgKZBs7r8WQeSM02XS7MFVIoZczzynkb2x3Pt/+3eNp93cZ/84aTaAcKYcADoQ2G2DYjtFW74/7gvvmchCbtdxadyEiYZrKoy3d8CDFbHbWa5aRWxobNnQ2a9RW/UkI5kWtSKSWQ581ryXp6phjFhqf1XruIgn1TaHVeMy17nLf7um3+m2lHCWHATairQTbh7kV/cLV8UWr2KMZlupyO5ZGrVtigoukXbkatDNe06ivuXQwbxHnMemFpnC374hiKmZu90Opv2WCz123j30w7TvgCbiu2F1pbweW2V8F1K6Ob/uBSy7IzJaRyKWDhYn31VssrKEkNvOMU9Q59xbVFcVKSFhuyzxOtXeDzzg9Uasu8dm0JIW9CiSbnNdr0b2n/dTktd094p+h2Sl4dNsyytW8Cd9kfXObpUuWKmPE/c2oga1xvrVowU14ZXhnW9XvgwlarvuLVqXIFhVQp8BpllGJ+Va946+xJecZG/mvHcv7jK966uPl5bf0tnvZfd+O/mXY69gffEnrlO41S0n6OTbQ12B98SzDgtD3YH3xLMOC0PRhwIoeF7yIbEfUMA07kMAacyGEMOJHDGHAihzHgRA5jwIkcxoATOYwBJ3IYA07kMAacyGEMOJHDGHAihzHgRA5jwIkcxoATOYwBJ3IY+4MTOSx0aWF/cKLeCV0FX8l/iEhE+4Jrf3D5A2WrFVwruf9rqnqf/wurelzP00r/3ocRXPjXXXjpDX2WJvT3ynO2qY928dDfB9cfQ8whUcw07eShfcMLKSCfHMFKpoLqwwPK+TxKqVSgXZD2DOOPK1I4hK6C96U/eF1rHxnJEoaqv+vfXt/wuuZ+Xoj9/ZHsitxb2/f7+/m9z4i2W+gC3pf+4MHWPmo5i2ygYPeyb/hydgbF6Cgan45oO4SvgvejP/h8QUKXwmyL3ltt9w0n2mFCF/D+9AfXntpJLIz6vbc2tt1qp294e+JTaSTKd/dYol4LYcADoQ2G2DYjtFW74/7gy8iO6Prbb+7XGPI79g3fVK23tjYczIx08lii/glhwE2oq0E24e5Zf/AszufLSFTLtdFW3/BWahfZBr2r80ThEL6A24rthdZWcLntVXDdyui0P7iEtrb8jmN8NIpyqXrJzbhD33CiHSi8U3Q7Ja8OG2bZ2jeBdvuDz68gZqbQlUoBqVIGI80+qN60bzjRzhO6L7q42R+caHuELuBu9gcn2h5sH0zksPCtwYmoZxhwIocx4EQOY8CJHMaAEzmMASdyGANO5DAGnMhhDDiRwxhwIocx4EQOY8CJHMaAEzmMASdyGANO5DAGnMhhDDiRwxhwIoexPziRw0KXFvYHJ+qdr0R/8Im5CpKFQdRagGtf8DRKwT7e2j88WWjaJ7xzTZ6faBuEroL3oz/4fKFY36ooPoQYonUtg+NDsSbdToh2ttAFvC/9wa+UUI4NVZvyx8dHUcrngdiwPQI5hAW2BCXHhK+C96M/uG0s6CXcD3Pp4gpKiaTpCT6MWLSEFZNvndL7bY5kmDak8anF2rHA8WbnVg1PYdHct9iiNzlRP4Uu4P3pD76MlVLUFGwJs9f7W3uCxzCkuZtIIlEsVLuCzk/aTqEZFBNpr3Hhcnakdkz+y5i1erNzfVGk0sB5vS9TRDSVMW8mRFsnhAEPhDYYYtuM0FbtDvuDV9fhGubSitc9VGbu3jp8w/pbL7h5lTeHhDlkTczlIOmutQhueW4Z+fOmT/h8Qd4SzJsJ0RYKYcBNqKtBNuHutj+4WYdPSJiLBT+eyxcXZB0+Xr/+jsu0WjPsVeUk8mX/sEfCnEOmdjV+s3OJQiB8AbcV2wutreBy26vgupXRaX9w5a3DU9D239Vivazr8BRSgfU3hmOIlkvwTomPYzTqHRUT8It3tXZvci5ROIR3im6n5NVhwyxb+ybQbn9wzzIuLkiJLev62xySibbM3CElvTbl1h7h8kZQ0Gn3bAwlU5V1ap6Q/3LmolllcQrxFucShQX7gxM5jP3BiRzG/uBEDgvfGpyIeoYBJ3IYA07kMAacyGEMOJHDGHAihzHgRA5jwIkcxoATOYwBJ3IYA07kMAacyGEMOJHDGHAihzHgRA5jwIkcxoATOYwBJ3IY+4MTOSx0aWF/cKLe6UnA/X7evTEoQdZQ61iV6q3h1ttrEvjB+wfwox/cxDuzN/H2zBe4PPOljNt469nbKEyv4twp/zkaaYPA+r6A2r97MdBHTGgLIj1Ju5U03teWJs9JtM26Dvjw8DAee+wxDAz0ZjKw7f3Bl7MYGWTjfnJDV6nUyn3o0CE88MADOHXqVE9Czv7gRL3TVSLX19fxxhtv4IMPPuhZyLe/P3hwqm1uT9kOog19vr3pvD0+ZA4agft02CVC/XKhYVqvj/HujGNqceNjiTrVdcldW1vrbchD0B+8XhSpWMHvAV7X51vCWUihlNHOooM4L28gtfbB9fcNJvOI5fwg1y0X5HVjZb+FsdKZhdcZcSKDVCnjP1ZGsN8hUSe6n1MLDfmbb76JW7dueSF/8MEHzT13oRpYGcEQ22aEtmr3sz94nTLyOZOwYJ9vXceX87B3LWdn5D7DW+MXYboUe+v6maJ5gwksFyaS8lYzs6B/hOwHlgl6TiJXP1sgugs9CbhW7EceeQS7d+/2Kvm1a9fMPXdhu/uD91t1uTCBZExmEvO6H8Owth/2ZhZ6jl7o01nBLKfo1JWuA67h1mm5Vm4Nt07XtaLfNVuxvdDaCi63vQquWxn97A/eLn1sNIWMCV98Kl2bout9sle9cC9r63TCVnRtYyxFezaN2MJF2dP9GJKZmL7LeDMLazk7gmS+jJg3ZSDqXFcB16voPQ23spXYTsmrw4ZZtvZNoB/9wds2j0lZkydy/oWwWXn7qE7R9T5v3W0ulBWkNicnq6/hzRyitVmD7scSMl23f5h+Jm8usBVSJczwMzu6S11/VVU/B9ePynoSbsH+4ES905Pvomsl14/MeoH9wYl6h/3BiRzWk6voRBRODDiRwxhwIocx4EQOY8CJHMaAEzmMASdyGANO5DAGnMhZwP8D4nd8jaxlWL0AAAAASUVORK5CYII=;" parent="1" vertex="1">
           <mxGeometry x="-300" y="7" width="248" height="193" as="geometry" />
         </mxCell>
-        <mxCell id="9VRJLxWaMSqpoo6wqOYs-1" value="Debian&lt;div&gt;192.168.20.2&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU:4&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RAM:4GB&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HDD:80GB&lt;/span&gt;&lt;/div&gt;" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_linux;" vertex="1" parent="1">
-          <mxGeometry x="-314" y="380" width="46" height="60" as="geometry" />
+        <mxCell id="9VRJLxWaMSqpoo6wqOYs-1" value="Debian&lt;div&gt;192.168.20.2&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU:4&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RAM:4GB&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HDD:80GB&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DHCP&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(20.10 -&amp;gt; 20.30)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.vm_linux;" vertex="1" parent="1">
+          <mxGeometry x="-314" y="340" width="46" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9VRJLxWaMSqpoo6wqOYs-2" value="Debian Server" style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-342" y="300" width="102" height="270" as="geometry" />
+        <mxCell id="9VRJLxWaMSqpoo6wqOYs-2" value="Debian Server&#xa;&#xa;&#xa;DHCP" style="swimlane;startSize=75;whiteSpace=wrap;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-342" y="260" width="102" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="9VRJLxWaMSqpoo6wqOYs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9VRJLxWaMSqpoo6wqOYs-2">
+        <mxCell id="9VRJLxWaMSqpoo6wqOYs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9VRJLxWaMSqpoo6wqOYs-2" target="HjCkSi2J4U26lbaqlSwR-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-290" y="570" />
               <mxPoint x="-290" y="590" />
-              <mxPoint x="-662" y="590" />
+              <mxPoint x="-605" y="590" />
             </Array>
             <mxPoint x="-417" y="570" as="sourcePoint" />
             <mxPoint x="-662" y="610" as="targetPoint" />
