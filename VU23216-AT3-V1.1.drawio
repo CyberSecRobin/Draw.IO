@@ -1,4 +1,4 @@
-<mxfile modified="2024-06-26T04:59:27.064Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="eoq3s5Ckfdcoo0bFeGyP" version="24.4.13" type="github">
+<mxfile modified="2024-06-26T04:59:41.870Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="zKrg00s8PoNa7L2sLQKM" version="24.4.13" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="2011" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
         <mxCell id="HJctW9A064tmooR44P-Z-43" value="SIEM" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-692" y="300" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJctW9A064tmooR44P-Z-51" value="V1.1.3" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
+        <mxCell id="HJctW9A064tmooR44P-Z-51" value="V1.1.4" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
           <mxGeometry x="-722" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HjCkSi2J4U26lbaqlSwR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HJctW9A064tmooR44P-Z-54" target="HjCkSi2J4U26lbaqlSwR-2" edge="1">
